@@ -64,7 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HuffmanTree.cpp" />
+    <ClCompile Include="HuffmanTree.hpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="源.cpp" />
   </ItemGroup>
