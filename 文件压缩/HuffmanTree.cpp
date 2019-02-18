@@ -33,6 +33,7 @@ public:
 			return;
 		}
 		priority_queue<pNode> q;
+		
 		for (size_t i = 0; i < v.size(); ++i){
 			q.push(new Node(v[i]));
 		}
