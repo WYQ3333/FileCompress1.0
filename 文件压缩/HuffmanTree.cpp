@@ -1,7 +1,8 @@
 #pragma once
 #include"FileComepressHuffM.h"
 #include<vector>
-#include<deque>
+#include<queue>
+#include<iostream>
 
 template<class W>
 struct HuffmanTreeNode{
@@ -31,7 +32,7 @@ public:
 		if (v.empty()){
 			return;
 		}
-		std::priority_queue<pNode> q;
+		priority_queue<pNode> q;
 		for (size_t i = 0; i < v.size(); ++i){
 			q.push(new Node(v[i]));
 		}
