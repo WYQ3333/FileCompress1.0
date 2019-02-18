@@ -20,4 +20,5 @@ void FileComepressHuffM::CompressFile(const string& strFilePath){
 		}
 	}
 
+	
 }
